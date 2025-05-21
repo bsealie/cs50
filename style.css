@@ -1,0 +1,45 @@
+.bg-carousel {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    overflow:hidden;
+    z-index: -1;
+}
+
+
+.bg-carousel .carousel-inner,
+.bg-carousel .carousel-item,
+.bg-carousel .carousel-item
+
+.img-frontpage {
+  height: 100vh;
+  object-position: 50% 15%;
+  object-fit: cover;
+}
+
+.img-family {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.img-huzz {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+h1,h2{
+  font-family: "Times New Roman", Serif
+}
+
